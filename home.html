@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- css framework bootstrap 5,
+  template dari start bootstrap.com,
+  admin page template admin-LTE
+  mendukung rwd dan css media queries, serta javascript -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Cendikia</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="admin/dist/css/adminlte.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <script src="js/darkmode.js"></script>
+  <script src="js/darkmode.js"></script>
+</head>
+
+
+<body>
+  <!-- Responsive navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-5">
+      <a class="navbar-brand" href="#!">
+        <img src="admin/img/logo.png" class="logo" alt="">
+        Cendikia
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="berita.html">Berita</a></li>
+          <li class="nav-item"><a class="nav-link" href="data-mesjid/">Data Mesjid</a></li>
+          <li class="nav-item"><a class="nav-link" href="register.html">Registrasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">Tentang Kami</a></li>
+          <li class="nav-item" id="login-element"><a class="nav-link btn-primary login" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <button id="dark-mode-toggle" class="dark-mode-toggle"></button>
+  <!-- Header-->
+  <header class="bg-dark py-5 hero">
+    <div class="container px-5">
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-6">
+          <div class="text-center my-5">
+            <h1 class="display-5 fw-bolder text-white mb-2">Cendikia</h1>
+            <p class="lead subtitle text-white-50 mb-4"> Daftarkan mesjid anda dan dapatkan berita seputar mesjid
+              terbaru dan ter update di Depok</p>
+            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+              <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+              <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Features section-->
+  <section class="py-5 border-bottom" id="features">
+    <div class="container px-5 my-5">
+      <div class="row gx-5">
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+          <h2 class="h4 fw-bolder">Jadwal Sholat</h2>
+          <p>Berisi mengenai informasi jadwal sholat paling update sesuai dengan data masjid yang ada.</p>
+          <a class="text-decoration-none" href="#artikel">
+            Info lebih lanjut
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
+          <h2 class="h4 fw-bolder">Kajian Islam</h2>
+          <p>Kajian islam yang sering diadakan di masjid ini memiliki beberapa topik yang sering di bahas, tentunya itu
+            sangat
+            bermanfaat sekali bagi kita untuk belajar tentang agama. Kajian ini sering diadakan setiap hari Senin,
+            Selasa dan Kamis.</p>
+          <a class="text-decoration-none" href="#!">
+            Info lebih lanjut
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+        <div class="col-lg-4">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+          <h2 class="h4 fw-bolder">Berita Terbaru</h2>
+          <p>Jangan lewatkan perkembangan berita perkembangan mesjid Kota Depok</p>
+          <a class="text-decoration-none" href="#!">
+            Info lebih lanjut
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Pricing section-->
+  <section class="py-5 border-bottom" id="artikel">
+    <div class="container px-5 my-5">
+      <div class="text-center mb-5">
+        <h2 class="title fw-bolder">Terbaru</h2>
+        <p class="subtitle lead mb-0">Artikel dan pemberitahuan terbaru dari kami</p>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <!-- Pricing card free-->
+        <div class="col-lg-6 col-xl-4">
+          <div class="card mb-5 mb-xl-0">
+            <div class="card-body p-5">
+              <h2 class=""></h2>
+              <div class="text-uppercase fw-bold mb-3">
+                <i class="bi bi-alarm-fill text-warning"></i>
+                Jadwal Sholat Hari ini
+              </div>
+              <table class="jadwal-sholat">
+                <tr>
+                  <th>Subuh</th>
+                  <td>04.29</td>
+                </tr>
+                <tr>
+                  <th>Terbit</th>
+                  <td>05.52</td>
+                </tr>
+                <tr>
+                  <th>Zuhur</th>
+                  <td>12.04</td>
+                </tr>
+                <tr>
+                  <th>Asar</th>
+                  <td>15.27</td>
+                </tr>
+                <tr>
+                  <th>Magrib</th>
+                  <td>18.17</td>
+                </tr>
+                <tr>
+                  <th>Isya</th>
+                  <td>19.31</td>
+                </tr>
+              </table>
+
+              <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Lihat Jadwal Untuk Besok</a></div>
+            </div>
+          </div>
+        </div>
+        <!-- Pricing card pro-->
+        <div class="col-lg-6 col-xl-4">
+          <div class="card mb-5 mb-xl-0">
+            <div class="card-body p-5">
+              <div class="text-uppercase fw-bold mb-3">
+                <i class="bi bi-bar-chart-steps text-warning"></i>
+                Pahala Melangkahkan Kaki
+              </div>
+              <p>Sebagaimana di dalam haditsnya, Rasulullah SAW bersabda: "Seseorang yang berjalan ke masjid, maka tiap
+                langkah kakinya akan diberikan satu pahala, dihapuskan satu dosa, dan dinaikkan satu derajat oleh Allah
+                SWT." (HR. Ibnu Majah dan Muslim).</p>
+              <div class="d-grid"><a class="btn btn-primary" href="#!">Baca Artikel Lainnya</a></div>
+            </div>
+          </div>
+        </div>
+        <!-- Pricing card enterprise-->
+        <div class="col-lg-6 col-xl-4">
+          <div class="card">
+            <div class="card-body p-5">
+              <div class="text-uppercase fw-bold mb-3 text-center">
+                <i class="bi bi-moon text-warning"></i>
+                Fitur Mode Gelap!
+                <i class="bi bi-sun text-warning"></i>
+              </div>
+              <p>
+                Fitur Mode Gelap kini tersedia di admin page! Anda Bisa mengaktifkannya di pojok atas kanan.
+                Membuat mengelola web mesjid anda di malam hari menjadi lebih nyaman
+              <i class="bi bi-arrow-up-right text-warning large"></i>
+              </p>
+              <div class="d-grid"><a class="btn btn-outline-primary" href="#!">Aktifkan Fitur Mode Gelap</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials section-->
+  <section class="py-5 border-bottom">
+    <div class="container px-5 my-5 px-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bolder">Berita Terbaru</h2>
+        <p class="lead mb-0">Berita terbaru seputar mesjid Depok</p>
+      </div>
+      <div class="gx-5 berita-container">
+
+        <div class="card mb-lg-0">
+          <a href="#berita-example" class="stretched-link"></a>
+          <h2 class="h4 fw-bolder">Megahnya Mesjid Kubah Emas, Destinasi Wisata Religi di Kota Depok</h2>
+          <img class="foto-berita" src="img/masjid kubah emas.jpg" alt="">
+          <p>Penulis : Siska Permata Sari
+            <br>
+            Tanggal : 08 April 2022
+            <br>
+            Deskripsi : Mesjid Kubah Emas/Mesjid Dian Al-Mahri merupakan destinasi wisata religi di Kota Depok.
+            Terletak di Meruyung, Limo, Depok, Jawa Barat,
+            mesjid ini terkenal megah dan unik berkat kubah-kubahnya yang dilapisi oleh emas.......<a
+              class="hyperlink" href="#">Baca
+              Selengkapnya</a>
+          </p>
+          <div class="card-footer">
+            <div title="like"> <input type="checkbox" name="" id="" class="like"></div>
+            <div title="comment"><input type="checkbox" name="" id="" class="comment"></div>
+            <div title="bookmark"><input type="checkbox" name="" id="" class="bookmark"></div>
+          </div>
+        </div>
+        
+        <div class="card mb-lg-0">
+          <a href="#berita-example" class="stretched-link"></a>
+          <h2 class="h4 fw-bolder">Penampakan Keindahan Mesjid At Thohir di Cimanggis Depok
+          </h2>
+          <img class="foto-berita" src="img/masjid at thohir.jpg" alt="">
+          <p>Penulis : Mohamad Amin Madani
+            <br>
+            Tanggal : 11 Februari 2022
+            <br>
+            Deskripsi : Mesjid yang diberi nama At Thohir terletak di kawasan perumahan Podomoro dekat lapangan
+            golf Emeralda, Cimanggis, Depok.
+            Nama mesjid ini diambil dari nama almarhum ayahanda Menteri BUMN Erick Thohir.......<a
+              class="hyperlink" href="#">Baca
+              Selengkapnya</a>
+          </p>
+          <div class="card-footer">
+            <div title="like"><input type="checkbox" name="" id="" class="like"></div>
+            <div title="comment"><input type="checkbox" name="" id="" class="comment"></div>
+            <div title="bookmark"><input type="checkbox" name="" id="" class="bookmark"></div>
+          </div>
+        </div>
+        <div class="card mb-lg-0">
+          <a href="#berita-example" class="stretched-link"></a>
+          <h2 class="h4 fw-bolder">Mesjid Kubah Emas Depok Gelar Salat Idul Fitri, Jumlah Jamaah Dibatasi 30%</h2>
+          <img class="foto-berita" src="img/masjid kubah emas berita 6.jpg" alt="">
+          <p>Penulis : Yohannes Tobing
+            <br>
+            Tanggal : 13 Mei 2021
+            <br>
+            Deskripsi : Mesjid Dian Al-Mahri atau yang sering disebut dengan Mesjid Kubah Emas dijadwalkan
+            menggelar Salat Idul Fitri. Namun, pengurus
+            tetap mengikuti aturan pemerintah dengan membatasi jumlah jamaah serta menerapkan protokol kesehatan
+            ketat......<a class="hyperlink" href="#">Baca
+              Selengkapnya</a>
+          </p>
+          <div class="card-footer">
+            <div title="like"><input type="checkbox" name="" id="" class="like"></div>
+            <div title="comment"><input type="checkbox" name="" id="" class="comment"></div>
+            <div title="bookmark"><input type="checkbox" name="" id="" class="bookmark"></div>
+          </div>
+        </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- Contact section-->
+  <section class="py-5">
+    <div class="container px-5 my-5 px-5">
+      <div class="text-center mb-5">
+        <div class="feature bg-primary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
+        <h2 class="fw-bolder">Get in touch</h2>
+        <p class="lead mb-0">We'd love to hear from you</p>
+      </div>
+      <div class="row gx-5 justify-content-center">
+        <div class="col-lg-6">
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- * * SB Forms Contact Form * *-->
+          <!-- * * * * * * * * * * * * * * *-->
+          <!-- This form is pre-integrated with SB Forms.-->
+          <!-- To make this form functional, sign up at-->
+          <!-- https://startbootstrap.com/solution/contact-forms-->
+          <!-- to get an API token!-->
+          <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <!-- Name input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                data-sb-validations="required" />
+              <label for="name">Nama lengkap</label>
+              <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+            </div>
+            <!-- Alamat e-mail input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                data-sb-validations="required,email" />
+              <label for="email">Alamat e-mail</label>
+              <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+              <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+            </div>
+            <!-- Nomor telepon input-->
+            <div class="form-floating mb-3">
+              <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"
+                data-sb-validations="required" />
+              <label for="phone">Nomor telepon</label>
+              <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+            </div>
+            <!-- Pesan input-->
+            <div class="form-floating mb-3">
+              <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..."
+                style="height: 10rem" data-sb-validations="required"></textarea>
+              <label for="message">Message</label>
+              <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+            </div>
+            <!-- Submit success message-->
+            <!---->
+            <!-- This is what your users will see when the form-->
+            <!-- has successfully submitted-->
+            <div class="d-none" id="submitSuccessMessage">
+              <div class="text-center mb-3">
+                <div class="fw-bolder">Form submission successful!</div>
+                To activate this form, sign up at
+                <br />
+                <a
+                  href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+              </div>
+            </div>
+            <!-- Submit error message-->
+            <!---->
+            <!-- This is what your users will see when there is-->
+            <!-- an error submitting the form-->
+            <div class="d-none" id="submitErrorMessage">
+              <div class="text-center text-danger mb-3">Error sending message!</div>
+            </div>
+            <!-- Submit Button-->
+            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton"
+                type="submit">Submit</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer class="py-5 bg-dark">
+    <div class="container px-5">
+      <p class="m-0 text-center text-white">Developed by Mahasiswa @STT-NF 2022</p>
+    </div>
+  </footer>
+  <!-- Bootstrap core JS-->
+  <!-- Core theme JS-->
+  <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <!-- * *                               SB Forms JS                               * *-->
+  <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+  <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+  <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
